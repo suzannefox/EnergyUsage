@@ -8,7 +8,7 @@ df['day'] = pd.to_datetime(df['day'])
 
 # --------------------------------------------------------------------------------------
 
-# Streamlit App
+# My Streamlit App
 st.title("Date Range Filter Example")
 
 # 1. Date Inputs
