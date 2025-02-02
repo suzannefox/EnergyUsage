@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 df = pd.read_csv('./data-cumulative/cumulative.csv')
 print(f'{df.shape}')
 df['day'] = pd.to_datetime(df['day'])
+
 # --------------------------------------------------------------------------------------
 
 # Streamlit App
